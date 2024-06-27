@@ -4,7 +4,7 @@
 # Task 1:Stack smashing by memory overwritten
 
 ## 1.1. bof1.c
- First we have a `bof1.c` file
+ First we have a `bof1.c` file:
  
     #include<stdio.h>
     #include<unistd.h>
@@ -26,6 +26,7 @@
         return 0;
         
     }
+I see that we have a array with 200 charaters,then i use `gcc` to compile `bof1.c` file:
 
 ## 1.2. bof2.c
 
